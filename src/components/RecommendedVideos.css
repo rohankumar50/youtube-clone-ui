@@ -1,0 +1,10 @@
+.recommendedVideo {
+	flex: 0.8;
+	padding: 10px 20px;
+	background-color: #f9f9f9;
+}
+.rocommendedVideos_videos {
+	padding-top: 10px;
+	display: flex;
+	flex-wrap: wrap;
+}

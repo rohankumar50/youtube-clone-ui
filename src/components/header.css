@@ -1,0 +1,66 @@
+.header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 20px;
+	position: sticky;
+	top: 0;
+	z-index: 100;
+	background-color: white;
+}
+
+.header_logo {
+	height: 20px;
+	object-fit: contain;
+	margin-left: 15px;
+}
+.header_leftblock {
+	display: flex;
+	align-items: center;
+	flex: 0.2;
+}
+
+.header_inputfield {
+	display: flex;
+	align-items: center;
+	flex: 0.5;
+	border: 1px solid lightgray;
+	justify-content: center;
+}
+.header_inputfield > input {
+	flex: 1;
+	border: none;
+	margin-left: 10px;
+	text-decoration: none;
+}
+.header_inputfield > input:focus {
+	outline: none;
+}
+.header_inputbutton {
+	width: 50px;
+	border: none;
+	border-left: 1px solid lightgray;
+	background-color: #fafafa;
+	color: gray;
+	cursor: pointer;
+}
+.header_inputbutton:focus {
+	outline: none;
+}
+.header_rightblock {
+	display: flex;
+	align-items: center;
+	flex: 0.1;
+}
+
+.header_videocallicon {
+	margin-right: 20px;
+}
+
+.header_appicon {
+	margin-right: 20px;
+}
+
+.header_notificationicon {
+	margin-right: 20px;
+}

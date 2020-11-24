@@ -1,0 +1,21 @@
+.videoRow {
+	display: flex;
+	margin-bottom: 30px;
+	max-width: 70%;
+}
+
+.videoRow > img {
+	object-fit: contain;
+	width: 240px;
+	height: 138px;
+}
+
+.videoRow_text {
+	margin-left: 14px;
+}
+
+.videoRow_text > p {
+	margin-top: 10px;
+	font-size: 14px;
+	color: #606060;
+}
